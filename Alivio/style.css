@@ -1,0 +1,425 @@
+*,
+*::before,
+*::after{
+   padding: 0;
+   margin: 0;
+   border: 0;
+   box-sizing: border-box;
+}
+
+a{
+   text-decoration: none;
+}
+
+ul,
+ol,
+li{
+   list-style: none;
+}
+
+img{
+   vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+   font-weight: inherit;
+   font-size: inherit;
+}
+button{
+   color:inherit;
+   font-size: inherit;
+   background-color: transparent;
+   border:none;
+   cursor:pointer;
+   font-family: inherit;
+   padding: 0;
+}
+
+
+html,
+body{
+   height: 100%;
+   line-height: 1;
+}
+body{
+   font-family: 'Lato', sans-serif;
+/* font-family: 'Noto Sans Georgian', sans-serif; */
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 31px;
+   color: #484848;
+   min-width: 420px;
+}
+.wrapper{
+   min-height: 100%;
+   display: flex;
+   flex-direction: column;
+}
+
+.main {
+   flex-grow: 1;
+}
+
+.container{
+   max-width: 1433px;
+   margin: 0 auto;
+   padding: 0 10px;
+}
+
+
+.header__nav {
+   position: absolute;
+   display: flex;
+   justify-content: center;
+   margin-top: 17px;
+   margin-bottom: 32px;
+}
+
+.sign {
+   line-height: 24px;
+   margin-right: 34px;
+}
+
+.menu {
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   align-items: center;
+   margin-right: 212px;
+}
+.menu__list{
+   margin-right: 71px;
+}
+
+.header__btn {
+   width: 183px;
+   height: 50px;
+   position: relative;
+   flex-direction: column;
+   align-items: center;
+   padding: 13px 40px;
+   gap: 30px;
+   background: #01996D;
+   border: 1px solid #01996D;
+   border-radius: 4px;
+   font-size: 20px;
+   line-height: 25px;
+   color:#fff;
+   justify-content: center;
+}
+.header__logo {
+   margin-right: 172px;
+}
+/*------------------------------------------------------------------------------*/
+
+
+.top{
+   margin-top: 85px;
+   min-height: calc(100vh);
+   background-image: url(main-bg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: bottom center;
+   margin-bottom: 169px;
+}
+.title{
+   font-family: 'Georgia';
+   font-weight: 700;
+   font-size: 65px;
+   line-height: 74px;
+   color: #01996D;
+   max-width: 440px;
+   padding-top: 175px;
+   margin-bottom: 30px;
+}
+.subtitle{
+   max-width: 420px;
+   margin-bottom: 18px;
+}
+.buy-btn{
+   background: #01996D;
+   border: 1px solid #01996D;
+   border-radius: 4px;
+   width: 227px;
+   height: 65px;
+}
+.buy-btn__text{
+   font-size: 20px;
+   line-height: 25px;
+   text-align: center;
+   color: #FFFFFF;
+
+}
+
+
+/*===================================*/
+.info{
+   margin-bottom: 51px;
+}
+.info__top{
+   column-gap: 136px;
+   column-count: 2;
+}
+.info__subtitle{
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 157%;
+}
+.info__title{
+   font-family: 'Georgia';
+   font-weight: 700;
+   font-size: 50px;
+   line-height: 157%;
+   color: #01996D;
+   min-width: 584px;
+   height: 158px;
+   margin-right: 138px;
+   margin-bottom: 52px;
+}
+.info__text{
+   max-width: 671px;
+   height: 269px;
+   font-family: 'Lato';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 150%;
+   padding-top: 58px;
+}
+
+.info__list{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   gap: 95px;
+   text-align: center;
+}
+
+
+.info__number{
+   font-weight: 400;
+   font-size: 150px;
+   line-height: 150%;
+   text-align: center;
+   color: rgba(1, 153, 109, 0.2);
+   float: left;
+}
+.info__personalie_title{
+   font-family: 'Georgia';
+   font-weight: 700;
+   font-size: 30px;
+   line-height: 150%;
+   text-align: center;
+   color: #000000;
+   padding-left: 88px;
+   padding-top: 135px;
+   position: absolute;
+   margin-bottom: 55px;
+}
+.info__personalie_text{
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 150%;
+   width: 382px;
+   height: 150px;
+   margin-bottom: 60px;
+   position: relative;
+   display: flex;
+}
+
+
+/*====================================*/
+.info__understand{
+   margin-top: 205px;
+}
+.understand__number{
+   font-weight: 400;
+   font-size: 150px;
+   line-height: 150%;
+   text-align: center;
+   color: rgba(1, 153, 109, 0.2);
+   float: left;
+}
+.understand__personalie_title{
+   font-family: 'Georgia';
+   font-weight: 700;
+   font-size: 30px;
+   line-height: 150%;
+   text-align: center;
+   color: #000000;
+   padding-left: 88px;
+   padding-top: 135px;
+   position: absolute;
+   margin-bottom: 55px;
+}
+.understand__personalie_text{
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 150%;
+   width: 382px;
+   height: 150px;
+   margin-bottom: 60px;
+   position: relative;
+   display: flex;
+}
+
+/*============================================================*/
+
+.alivio__number{
+   font-weight: 400;
+   font-size: 150px;
+   line-height: 150%;
+   text-align: center;
+   color: rgba(1, 153, 109, 0.2);
+   float: left;
+}
+.alivio__personalie_title{
+   font-family: 'Georgia';
+   font-weight: 700;
+   font-size: 30px;
+   line-height: 150%;
+   text-align: center;
+   color: #000000;
+   padding-left: 88px;
+   padding-top: 135px;
+   position: absolute;
+   margin-bottom: 55px;
+}
+.alivio__personalie_text{
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 150%;
+   width: 382px;
+   height: 150px;
+   margin-bottom: 60px;
+   position: relative;
+   display: flex;
+}
+/*==================================*/
+
+.history{
+   background: #245852;
+   height: 922px;
+   margin-bottom: 120px;
+}
+.history__link{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   gap: 31px;
+   text-align: center;
+}
+.histoty__title{
+   text-align: left;
+   max-width: 580px;
+   height: 158px;
+   font-family: 'Georgia';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 50px;
+   line-height: 157%;
+   color: #FFFFFF;
+   margin-top: 310px;
+   margin-bottom: 33px;
+}
+.history__text{
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 157%;
+   color: #FFFFFF;
+   width: 550px;
+   height: 39px;
+   display: flex;
+   margin-bottom: 57px;
+   text-align: left;
+}
+.history__btn{
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 25px;
+   color: #FFFFFF;
+   background: #01996D;
+   border: 1px solid #01996D;
+   border-radius: 4px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 20px 50px;
+   gap: 30px;
+}
+.history__img{
+   margin-top: 229px;
+}
+
+/*==================================*/
+
+.product{
+   margin-bottom: 138px;
+   flex-basis: 1370px;
+   justify-content: center;
+}
+.product__block{
+   gap: 86px;
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+}
+.product__subtitle{
+   font-weight: 600;
+   font-size: 25px;
+   line-height: 157%; 
+   margin-bottom: 10px;
+}
+.product__title{
+   width: 584px;
+   height: 158px;
+   font-family: 'Georgia';
+   font-weight: 700;
+   font-size: 50px;
+   line-height: 157%;
+   color: #01996D;
+}
+.product__text{
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 31px;
+   color: #484848;
+   width: 530px;
+   height: 81px;
+   margin-bottom: 40px;
+}
+.product__btn{
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 25px;
+   color: #FFFFFF;
+   background: #01996D;
+   border: 1px solid #01996D;
+   border-radius: 4px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 20px 50px;
+   gap: 30px;
+}
+.footer{
+   height: 594px;
+   background: #245852;
+   color: #FFFFFF
+}
+.footer__logo{
+   font-weight: 900;
+   font-size: 40px;
+   line-height: 55px;
+   margin-top: 95px;
+   margin-bottom: 60px;
+}
+.footer__text{
+   display: flex;
+   font-weight: 600;
+   font-size: 25px;
+   line-height: 30px;
+   margin-bottom: 60px;
+   cursor:pointer;
+}
